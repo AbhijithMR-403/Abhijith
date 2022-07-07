@@ -1,0 +1,9 @@
+body{
+    padding: 15px;
+}
+
+.head_name{
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
