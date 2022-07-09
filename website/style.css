@@ -20,3 +20,7 @@ background-color: lightgrey;
 /* margin-bottom: 30px; */
 
 }
+.nav-link{
+    font-size: 30px;
+    font-family: ui-monospace;
+}
