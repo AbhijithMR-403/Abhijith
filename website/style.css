@@ -24,3 +24,10 @@ background-color: lightgrey;
     font-size: 30px;
     font-family: ui-monospace;
 }
+.about_sentence{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 25px;
+    margin-right: 90px;
+    margin-left: 90px
+
+}
