@@ -27,7 +27,11 @@ background-color: lightgrey;
 .about_sentence{
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 20px;
-    margin-right: 10px;
-    margin-left: 10px
+    /* margin-right: 15px;
+    margin-left: 15px */
 
+}
+.about_alignment{
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
