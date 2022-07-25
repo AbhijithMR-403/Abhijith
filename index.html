@@ -8,15 +8,19 @@
   <title>Abhijith</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- !imported font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+  <!-- !imported font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
 
-<!-- ! import icon  -->
-<script src="https://kit.fontawesome.com/e87fdda884.js" crossorigin="anonymous"></script>
+  <!-- ! import icon  -->
+  <script src="https://kit.fontawesome.com/e87fdda884.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="style.css">
+
+  <!-- ! For submission -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body style="background-color: #f9cb75; ">
@@ -35,9 +39,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link active" aria-current="page" href="#home_section">Home</a>
+              <a class="nav-link" href="#About_section">About</a>
+              <a class="nav-link" href="#social_media">Contact</a>
             </div>
           </div>
         </div>
@@ -47,7 +51,7 @@
 
   </header>
   <section style="width: auto;">
-    <h3 style="text-align: center;">MY ACHIEVEMENTS</h3>
+    <h3 style="text-align: center;" id="home_section">MY ACHIEVEMENTS</h3>
     <div class="container-fluid">
       <div class="row">
 
@@ -149,38 +153,138 @@
           </div>
         </div>
 
+        <!-- *Bootstrap -->
+        <div class="col-md-4 p-4">
+          <div class="card p-1" style="width: auto; text-align: center;">
+            <h3>Python</h3>
+            <img
+              src="https://cdn.dribbble.com/users/595/screenshots/14417863/media/8913cc1aae5de0cc7afdd1727e5582c0.png?compress=1&resize=400x300"
+              class="card-img-top img-fluid" alt="..." style="height: 215px;">
+            <div class="card-body">
+              <p class="card-text">Bootstrap is a potent front-end framework used to create modern websites and web
+                apps. It's open-source and free to use, yet features numerous HTML and CSS templates for UI interface
+                elements such as buttons and forms</p>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </div>
   </section>
-
-  <footer style="height: 500px; background-color: cornflowerblue;">
-    <h3 style="text-align: center;">About</h3>
+  <!-- ^About -->
+  <footer style="background-color: cornflowerblue;">
+    <br>
+    <div class="about_alignment" id="About_section">
+      <h1 style="text-align: center;">About</h1>
+    </div>
 
     <!-- *  pic -->
-    <div class="pic_about col-md-5" style="margin-left: 90px;">
-      <div class="col-md-6">
-      <img src="https://t4.ftcdn.net/jpg/03/88/53/01/240_F_388530127_AXcwuGoKzixcHCychfrgr7oTJjBh2ph3.jpg" alt="A Young Man Programmer Coding on a Laptop in the Dark" style="width: 400px; height: 300px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 div-1">
+          <img class="img-fluid center"
+            src="https://t4.ftcdn.net/jpg/03/88/53/01/240_F_388530127_AXcwuGoKzixcHCychfrgr7oTJjBh2ph3.jpg"
+            alt="A Young Man Programmer Coding on a Laptop in the Dark">
+        </div>
+        <div class="col-xs-12 col-md-6 div-2" style="margin-top: 75px;">
+          "You can learn anything if you have a passion for it and the commitment to put in at least 5 minutes a day."
+        </div>
+      </div>
     </div>
-    <div class="col-md-6">
-      "You can learn anything if you have a passion for it and the commitment to put in at least 5 minutes a day."
+    <br>
+    <br>
+    <div class="col-md-12">
+      <!-- * about the website -->
+      <p class="about_sentence mx-3" style="text-align: center;">
+        ya I had completed my first website.</p>
+      <br>
+      <p class="about_sentence mx-3">
+        My name is Abhijith MR.
+        I learned website design from open-source materials available on the internet and I eventually finished it and
+        am now planning to learn Nodejs .
+      </p>
+      <p class="about_sentence mx-3">
+        However, Thank you for visiting my site😁
+      </p>
     </div>
+    <br>
+    <br>
+    <br>
+    <!-- * Social media -->
+    <div class="social media" id="social_media">
+      <div class="container " style="text-align: center; margin-bottom: 10px;">
+
+
+
+        <!-- &instagram -->
+
+        <a class="fa-brands fa-instagram-square fa-lg mx-1"
+          href="https://instagram.com/psycholuttapi?igshid=YmMyMTA2M2Y="></a>
+
+        <!-- &linkedIn -->
+
+
+        <a class="fa-brands fa-linkedin fa-lg mx-1" href="https://www.linkedin.com/in/abhijith-m-r-982b96237">
+
+        </a>
+
+
+        <!-- &telegram -->
+
+        <a class="fa-brands fa-telegram fa-lg mx-1"></a>
+
+        <!-- &Twitter -->
+
+        <a class="fa-brands fa-twitter fa-lg mx-1" href="https://twitter.com/Abhijit23522387"></a>
+
+        <a class="fa-solid fa-arrow-up fa-2x float-end float-top-2px" href="#"></a>
+
+      </div>
+    </div>
+
+    <br>
+  </footer>
+  <!-- !contact page -->
+  <footer>
+    <br>
+    <div class=" d-flex align-items-center justify-content-center">
+
+      <div class="form " style="text-align: center;">
+        <div class="title">Thank You</div>
+        <div class="subtitle">Contact us</div>
+
+        <form id="submit-form" method="post" action="https://script.google.com/macros/s/AKfycbyX22Jwk7LcFhffKVU3AA5rlmS7K6yhYUk8pH9TwAPKGIQKIw5l0v3ZX3TGoVH36Rfh/exec">
+          <div class="input-container ic1">
+
+            <input id="Name" class="input" type="text" placeholder=" " name="name">
+            <div class="cut"></div>
+            <label for="Name" class="placeholder">Name</label>
+          </div>
+          <div class="input-container ic2">
+            <input id="email" class="input" type="text" placeholder=" " name="email">
+            <div class="cut"></div>
+            <label for="email" class="placeholder">Email</label>
+          </div>
+
+          <div class="input-container ic2">
+            <input class="input" id="Comment" type="text" placeholder=" " name="comment">
+            <div class="cut cut-short"></div>
+            <label for="Comment" class="placeholder">Comment</label>
+          </div>
+          <button type="text" class="submit">submit</button>
+        </form>
+      </div>
       
     </div>
-
-
-    
-    <!-- * about the website -->
-    <p class="about_sentence">My very first website is here. I'm not sure if it appears well to you, but I worked very
-      hard to create this website.
-
-      Finding the ideal color combination was one of the most difficult stages of developing this site. I think the
-      colour is now good enough</p>
-      
+    <div>
+    <a class="fa-solid fa-arrow-up fa-2x float-end float-top-2px" href="#"></a>
+  </div>
   </footer>
 
 
 
+  <!-- ^ live servers -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
@@ -190,6 +294,29 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+
+
+  <!-- * For Submit form -->
+  <!-- <script>
+    $("#submit-form").submit((e) => {
+      e.preventDefault()
+      $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbyX22Jwk7LcFhffKVU3AA5rlmS7K6yhYUk8pH9TwAPKGIQKIw5l0v3ZX3TGoVH36Rfh/exec",
+        data: $("#submit-form").serialize(),
+        method: "post",
+        success: function (response) {
+          alert("Form submitted successfully")
+          window.location.reload()
+          //window.location.href="https://google.com"
+        },
+        error: function (err) {
+        
+
+        }
+      })
+    })
+  </script> -->
+
 </body>
 
 </html>
