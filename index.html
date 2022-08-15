@@ -18,8 +18,8 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <!-- ! For submission -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- ^ For submission -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
 </head>
 
@@ -172,11 +172,11 @@
         <div class="col-md-4 p-4">
           <div class="card p-1" style="width: auto; text-align: center;">
             <h3>javascript</h3>
-            <img
-              src="https://www.educative.io/v2api/editorpage/5330288608542720/image/6288755792019456"
+            <img src="https://www.educative.io/v2api/editorpage/5330288608542720/image/6288755792019456"
               class="card-img-top img-fluid" alt="..." style="height: 215px;">
             <div class="card-body">
-              <p class="card-text">Just to learn more about front end development I learn javascript. JS, is a programming language that is one of the core technologies of the World Wide
+              <p class="card-text">Just to learn more about front end development I learn javascript. JS, is a
+                programming language that is one of the core technologies of the World Wide
                 Web, alongside HTML and CSS.</p>
             </div>
           </div>
@@ -268,8 +268,7 @@
         <div class="title">Thank You</div>
         <div class="subtitle">Contact us</div>
 
-        <form id="submit-form" method="post"
-          action="https://script.google.com/macros/s/AKfycbyX22Jwk7LcFhffKVU3AA5rlmS7K6yhYUk8pH9TwAPKGIQKIw5l0v3ZX3TGoVH36Rfh/exec">
+        <form method="post" action="https://formsubmit.co/abhijithmr581@gmail.com">
           <div class="input-container ic1">
 
             <input id="Name" class="input" type="text" placeholder=" " name="name">
@@ -287,6 +286,11 @@
             <div class="cut cut-short"></div>
             <label for="Comment" class="placeholder">Comment</label>
           </div>
+          <!-- *for thank page -->
+          <input type="hidden" name="_next" value="https://psycholuttapi.github.io/Abhijith/thanks/thanks.html">
+          <!-- * To disable recaptcha -->
+          <input type="hidden" name="_captcha" value="false">
+
           <button type="text" class="submit">submit</button>
         </form>
       </div>
@@ -310,27 +314,6 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
 
-
-  <!-- * For Submit form -->
-  <!-- <script>
-    $("#submit-form").submit((e) => {
-      e.preventDefault()
-      $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbyX22Jwk7LcFhffKVU3AA5rlmS7K6yhYUk8pH9TwAPKGIQKIw5l0v3ZX3TGoVH36Rfh/exec",
-        data: $("#submit-form").serialize(),
-        method: "post",
-        success: function (response) {
-          alert("Form submitted successfully")
-          window.location.reload()
-          //window.location.href="https://google.com"
-        },
-        error: function (err) {
-        
-
-        }
-      })
-    })
-  </script> -->
 
 </body>
 
